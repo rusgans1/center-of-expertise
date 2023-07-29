@@ -1,0 +1,4 @@
+.expertises {
+  margin: 0 auto 50px;
+  max-width: calc(100% - 100px * 2);
+}

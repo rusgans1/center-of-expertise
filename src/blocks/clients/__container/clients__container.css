@@ -1,0 +1,8 @@
+.clients__container {
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+  grid-template-rows: repeat(auto-fit, minmax(126px, 1fr));
+  gap: 20px;
+  justify-content: center;
+}

@@ -1,4 +1,5 @@
-.footer__container {
+.expertises__block {
   display: flex;
   justify-content: center;
+  margin-bottom: 40px;
 }

@@ -1,44 +1,51 @@
 <!DOCTYPE html>
 <html lang="ru">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="./pages/index.css">
   <title>Центр Экспертизы в сфере природопользования</title>
 </head>
 
 <body>
   <div class="page">
-    <header
-      class="header"
-      src="./images/header_image.png"
-      alt="Лес"
-    >
+    <header class="header">
       <div class="header__block">
         <div class="header__logo">
-          <img class="header__logo-icon" />
+          <img class="header__logo-icon" src="./images/logo.svg">
           <h1 class="header__logo-title">
-            Центр Экспертизы в сфере природопользования
+            Центр Экспертизы <br>
+            <span class="header__logo-title_green">
+              в сфере природопользования
+            </span>
           </h1>
         </div>
         <nav class="header__navigate">
-          <a class="hader__link" href="">Виды экспертиз</a>
-          <a class="hader__link" href="">Наши клиенты</a>
-          <a class="hader__link" href="">Контакты</a>
+          <img src="./images/ellipse.svg">
+          <a class="header__link" href="#expertises">
+            Виды экспертиз
+          </a>
+          <img src="./images/ellipse.svg">
+          <a class="header__link" href="#clients">
+            Наши клиенты
+          </a>
+          <img src="./images/ellipse.svg">
+          <a class="header__link" href="#contacts">
+            Контакты
+          </a>
         </nav>
       </div>
       <div class="header__container">
-        <div class="header__form">
-          <h2 class="header__title">
-            Проведение судебных и внесудебных экспертиз
-          </h2>
-          <h3 class="header__subtitle">
-            В сфере природопользования
-          </h3>
-        </div>
+        <h2 class="header__title">
+          Проведение судебных <br> и внесудебных экспертиз
+        </h2>
+        <h3 class="header__subtitle">
+          В сфере природопользования
+        </h3>
         <button
           class="header__button"
           href="https://"
+          type="button"
           rel="noreferrer"
         >
           Связаться с нами
@@ -46,26 +53,226 @@
       </div>
       <button
         class="header__arrow"
-        href="https://"
+        href="#about-us"
+        type="button"
         >
       </button>
     </header>
 
     <main>
-      <section class="about-us">
+      <section class="about-us" name="about-us">
+        <div class="about-us__block">
+          <img src="./images/ellipse.svg">
+          <h2 class="about-us__title">
+            О нас
+          </h2>
+          <img src="./images/ellipse.svg">
+        </div>
 
       </section>
 
-      <section class="expertises">
+      <section class="expertises" name="expertises">
+        <div class="expertises__block">
+          <img src="./images/ellipse.svg">
+          <h2 class="expertises__title">
+            Виды проводимых экспертиз
+          </h2>
+          <img src="./images/ellipse.svg">
+        </div>
 
       </section>
 
-      <section class="clients">
-
+      <section class="clients" name="clients">
+        <div class="clients__block">
+          <img src="./images/ellipse.svg">
+          <h2 class="clients__title">
+            Наши клиенты
+          </h2>
+          <img src="./images/ellipse.svg">
+        </div>
+        <div class="clients__container">
+          <a
+            class="clients__link"
+            href="https://severnaya.ru/"
+            target="_blank"
+          >
+            <img
+              src="./images/pticefabrika.png"
+              alt="Птицефабрика Северная"
+            >
+          </a>
+          <a
+            class="clients__link"
+            href="https://sudrf.ru/"
+            target="_blank"
+          >
+            <img
+              src="./images/sud_obshey_urisdikcii.png"
+              alt="Суды общей юрисдикции"
+            >
+          </a>
+          <a
+            class="clients__link"
+            href="https://segezha-group.com"
+            target="_blank"
+          >
+            <img
+              src="./images/segezha_group.png"
+              alt="Сегеза груп"
+            >
+          </a>
+          <a
+            class="clients__link"
+            href="https://arbitr.ru/"
+            target="_blank"
+          >
+            <img
+              src="./images/arbitrajniy_sud.png"
+              alt="Арбитражные суды"
+            >
+          </a>
+          <a
+            class="clients__link"
+            href="https://epp.genproc.gov.ru/"
+            target="_blank"
+          >
+            <img
+              src="./images/prirodoohrannaya_prokuratura.png"
+              alt="Природоохранная прокуратура"
+            >
+          </a>
+          <a
+            class="clients__link"
+            href="https://www.gazprom.ru/"
+            target="_blank"
+          >
+            <img
+              src="./images/gazprom.png"
+              alt="Газпром"
+            >
+          </a>
+          <a
+            class="clients__link"
+            href="https://sledcom.ru"
+            target="_blank"
+          >
+            <img
+              src="./images/sledstvenniy_comitet.png"
+              alt="Следственный комитет"
+            >
+          </a>
+          <a
+            class="clients__link"
+            href="https://nature.lenobl.ru/"
+            target="_blank"
+          >
+            <img
+              src="./images/comitet_po_prirodnim_resursam.png"
+              alt="Комитет по природным ресурсам"
+            >
+          </a>
+          <a
+            class="clients__link"
+            href="https://baltlng.ru/"
+            target="_blank"
+          >
+            <img
+              src="./images/rushimalyans.png"
+              alt="РусХимАльянс"
+            >
+          </a>
+          <a
+            class="clients__link"
+            href="https://aokcbk.ru/"
+            target="_blank"
+          >
+            <img
+              src="./images/kondopojskiy_cbk.png"
+              alt="Кондопожский ЦБК"
+            >
+          </a>
+          <a
+            class="clients__link"
+            href="https://kirlp.ru/"
+            target="_blank"
+          >
+            <img
+              src="./images/kirishi_lesprom.png"
+              alt="Кириши Леспром"
+            >
+          </a>
+          <a
+            class="clients__link"
+            href="https://ecostudio.su/"
+            target="_blank"
+          >
+            <img
+              src="./images/ecostudio.png"
+              alt="Экостудио"
+            >
+          </a>
+        </div>
       </section>
 
-      <section class="contacts">
-
+      <section class="contacts" name="contacts">
+        <div class="contacts__block">
+          <img src="./images/ellipse.svg">
+          <h2 class="contacts__title">
+            Контакты
+          </h2>
+          <img src="./images/ellipse.svg">
+        </div>
+        <div class="contacts__container">
+          <div class="contacts__info">
+            <a
+              class="contacts__phone"
+              href=”tel:+79219324436”
+            >
+              <img
+                class="contacts__icon"
+                src="./images/phone.svg"
+              >
+              +7 921 932 4436
+            </a>
+            <a
+              class="contacts__phone"
+              href=”tel:+79112096563”
+            >
+              <img
+                class="contacts__icon"
+                src="./images/phone.svg"
+              >
+              +7 911 209 6563
+            </a>
+            <a
+              class="contacts__email"
+              href=”mailto:expert_lc@mail.ru”
+            >
+              <img
+                class="contacts__icon"
+                src="./images/email.svg"
+              >
+              expert_lc@mail.ru
+            </a>
+            <a class="contacts__address">
+              <img
+                class="contacts__icon"
+                src="./images/location.svg"
+              >
+              Санкт-Петербург, <br> Б. Сампсониевский пр., д. 106, лит А, оф. 404
+            </a>
+          </div>
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1995.234188744807!2d30.32858759695033!3d59.99461020538322!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x469633f47eea70d9%3A0xef8a25c149231c2e!2z0JHQvtC70YzRiNC-0Lkg0KHQsNC80L_RgdC-0L3QuNC10LLRgdC60LjQuSDQv9GALiwgMTA2LCA0MDQsINCh0LDQvdC60YIt0J_QtdGC0LXRgNCx0YPRgNCzLCAxOTQxNTY!5e0!3m2!1sru!2sru!4v1690601559717!5m2!1sru!2sru"
+            width="1100"
+            height="550"
+            style="border:0; opacity:0.9; border-radius:10px;"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          >
+          </iframe>
+        </div>
       </section>
     </main>
 

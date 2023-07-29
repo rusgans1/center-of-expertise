@@ -1,0 +1,23 @@
+.clients__link {
+  position: relative;
+  text-decoration: none;
+  max-height: 126px;
+  max-width: 270px;
+}
+
+.clients__link::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
+}
+
+.clients__link:hover::before {
+  border-radius: 20px;
+  opacity: 0.4;
+  background: rgba(164, 199, 122, 0.60);
+}

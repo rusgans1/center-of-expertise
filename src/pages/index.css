@@ -4,24 +4,44 @@
 @import url(../blocks/page/page.css);
 
 @import url(../blocks/header/header.css);
-
-
+@import url(../blocks/header/__block/header__block.css);
+@import url(../blocks/header/__logo/header__logo.css);
+@import url(../blocks/header/__logo-icon/header__logo-icon.css);
+@import url(../blocks/header/__logo-title/header__logo-title.css);
+@import url(../blocks/header/__logo-title/_green/header__logo-title_green.css);
+@import url(../blocks/header/__navigate/header__navigate.css);
+@import url(../blocks/header/__link/header__link.css);
+@import url(../blocks/header/__container/header__container.css);
+@import url(../blocks/header/__title/header__title.css);
+@import url(../blocks/header/__subtitle/header__subtitle.css);
+@import url(../blocks/header/__button/header__button.css);
+@import url(../blocks/header/__arrow/header__arrow.css);
 
 @import url(../blocks/about-us/about-us.css);
-
+@import url(../blocks/about-us/__block/about-us__block.css);
+@import url(../blocks/about-us/__title/about-us__title.css);
 
 
 @import url(../blocks/expertises/expertises.css);
-
+@import url(../blocks/expertises/__block/expertises__block.css);
+@import url(../blocks/expertises/__title/expertises__title.css);
 
 
 @import url(../blocks/clients/clients.css);
-
-
+@import url(../blocks/clients/__block/clients__block.css);
+@import url(../blocks/clients/__title/clients__title.css);
+@import url(../blocks/clients/__container/clients__container.css);
+@import url(../blocks/clients/__link/clients__link.css);
 
 @import url(../blocks/contacts/contacts.css);
-
-
+@import url(../blocks/contacts/__block/contacts__block.css);
+@import url(../blocks/contacts/__title/contacts__title.css);
+@import url(../blocks/contacts/__container/contacts__container.css);
+@import url(../blocks/contacts/__info/contacts__info.css);
+@import url(../blocks/contacts/__icon/contacts__icon.css);
+@import url(../blocks/contacts/__phone/contacts__phone.css);
+@import url(../blocks/contacts/__email/contacts__email.css);
+@import url(../blocks/contacts/__address/contacts__address.css);
 
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/footer/__container/footer__container.css);
