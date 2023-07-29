@@ -347,3 +347,15 @@ template {
 [hidden] {
   display: none;
 }
+
+ul {
+  padding: 0;
+}
+
+li {
+  list-style-type: none;
+ }
+
+li:before {
+  content: url(../images/check_mark.svg);
+ }

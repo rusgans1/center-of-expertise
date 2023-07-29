@@ -25,7 +25,11 @@
 @import url(../blocks/expertises/expertises.css);
 @import url(../blocks/expertises/__block/expertises__block.css);
 @import url(../blocks/expertises/__title/expertises__title.css);
-
+@import url(../blocks/expertises/__grid/expertises__grid.css);
+@import url(../blocks/expertises/__container/expertises__container.css);
+@import url(../blocks/expertises/__subtitle-block/expertises__subtitle-block.css);
+@import url(../blocks/expertises/__subtitle/expertises__subtitle.css);
+@import url(../blocks/expertises/__text/expertises__text.css);
 
 @import url(../blocks/clients/clients.css);
 @import url(../blocks/clients/__block/clients__block.css);
