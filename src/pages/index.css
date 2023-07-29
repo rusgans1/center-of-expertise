@@ -20,7 +20,11 @@
 @import url(../blocks/about-us/about-us.css);
 @import url(../blocks/about-us/__block/about-us__block.css);
 @import url(../blocks/about-us/__title/about-us__title.css);
-
+@import url(../blocks/about-us/__grid/about-us__grid.css);
+@import url(../blocks/about-us/__container/about-us__container.css);
+@import url(../blocks/about-us/__subtitle-block/about-us__subtitle-block.css);
+@import url(../blocks/about-us/__subtitle/about-us__subtitle.css);
+@import url(../blocks/about-us/__text/about-us__text.css);
 
 @import url(../blocks/expertises/expertises.css);
 @import url(../blocks/expertises/__block/expertises__block.css);
