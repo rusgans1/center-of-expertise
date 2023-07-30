@@ -1,4 +1,7 @@
 .clients {
-  margin: 0 auto 50px;
+  margin: auto;
+  padding-bottom: 50px;
   max-width: calc(100% - 100px * 2);
 }
+
+

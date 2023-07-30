@@ -2,3 +2,15 @@
   display: flex;
   justify-content: center;
 }
+
+@media screen and (max-width: 950px) {
+  .footer__container-large {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 951px) {
+  .footer__container-small {
+    display: none;
+  }
+}

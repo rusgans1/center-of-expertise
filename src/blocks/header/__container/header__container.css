@@ -2,3 +2,16 @@
   margin: 500px 0 40px;
   max-width: 643px;
 }
+
+@media screen and (max-width: 1440px) {
+  .header__container {
+    margin-top: 415px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .header__container {
+    margin-top: 470px;
+    margin-bottom: 20px;
+  }
+}

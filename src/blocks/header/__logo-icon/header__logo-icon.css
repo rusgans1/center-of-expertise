@@ -1,5 +1,19 @@
 .header__logo-icon {
-  margin-right: 21px;
+  margin-right: 20px;
   width: 44px;
   background-size: cover;
+}
+
+@media screen and (max-width: 1440px) {
+  .header__logo-icon {
+    margin-right: 15px;
+    width: 38px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .header__logo-icon {
+    margin-right: 10px;
+    width: 31px;
+  }
 }

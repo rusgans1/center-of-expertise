@@ -3,3 +3,9 @@
   align-items: center;
   height: 28px;
 }
+
+@media screen and (max-width: 1100px) {
+  .header__navigate {
+    display: none;
+  }
+}

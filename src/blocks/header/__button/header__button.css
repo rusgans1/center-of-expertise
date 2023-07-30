@@ -14,3 +14,10 @@
 .header__button:hover {
   opacity: 0.7;
 }
+
+@media screen and (max-width: 600px) {
+  .header__button {
+    width: 295px;
+    font-size: 16px;
+  }
+}

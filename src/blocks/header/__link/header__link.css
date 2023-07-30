@@ -16,3 +16,10 @@
 .header__link:last-child {
   margin-right: 0;
 }
+
+@media screen and (max-width: 1440px) {
+  .header__link {
+    font-size: 20px;
+    margin-right: 57px;
+  }
+}

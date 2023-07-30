@@ -3,6 +3,18 @@
   font-size: 24px;
   font-style: normal;
   font-weight: 500;
-  width: 357px;
   margin: 0;
+  }
+
+  @media screen and (max-width: 1440px) {
+    .header__logo-title {
+      font-size: 20px;
+    }
+  }
+
+  @media screen and (max-width: 600px) {
+    .header__logo-title {
+      width: 268px;
+      font-size: 18px;
+    }
   }
