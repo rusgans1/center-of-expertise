@@ -1,5 +1,6 @@
 .header {
   background-image: url(../../images/header_image.png);
+  background-position: center;
   height: 940px;
   flex-direction: column;
   padding: 70px 100px;

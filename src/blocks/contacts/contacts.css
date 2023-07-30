@@ -1,5 +1,6 @@
 .contacts {
   background-image: url(../../images/footer_image.png);
+  background-position: center;
   min-height: 769px;
   padding: 0 100px;
 }
