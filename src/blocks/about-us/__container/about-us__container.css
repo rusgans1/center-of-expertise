@@ -1,9 +1,10 @@
 .about-us__container {
+  box-sizing: border-box;
+  max-width: 560px;
   display: inline-flex;
   padding: 30px 30px;
   flex-direction: column;
   align-items: flex-start;
-  gap: 16px;
   border-radius: 20px;
   background: #fff;
 }

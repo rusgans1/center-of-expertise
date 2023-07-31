@@ -1,545 +1,434 @@
 <!DOCTYPE html>
 <html lang="ru">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="./pages/index.css">
-  <title>Центр Экспертизы в сфере природопользования</title>
-</head>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./pages/index.css" />
+    <title>Центр Экспертизы в сфере природопользования</title>
+  </head>
 
-<body>
-  <div class="page">
+  <body>
+    <div class="page">
+      <header class="header">
+        <div class="header__block">
+          <div class="header__logo">
+            <img class="header__logo-icon" src="./images/logo.svg" />
+            <h1 class="header__logo-title">
+              Центр Экспертизы <br />
+              <span class="header__logo-title_green">
+                в сфере природопользования
+              </span>
+            </h1>
+          </div>
+          <nav class="header__navigate">
+            <img src="./images/ellipse.svg" />
+            <a class="header__link" href="#expertises"> Виды экспертиз </a>
+            <img src="./images/ellipse.svg" />
+            <a class="header__link" href="#clients"> Наши клиенты </a>
+            <img src="./images/ellipse.svg" />
+            <a class="header__link" href="#contacts"> Контакты </a>
+          </nav>
+        </div>
+        <div class="header__container">
+          <div class="header__info">
+            <h2 class="header__title">
+              Проведение судебных <br />
+              и внесудебных экспертиз
+            </h2>
+            <h3 class="header__subtitle">В сфере природопользования</h3>
+            <button
+              class="header__button"
+              href="https://"
+              type="button"
+              rel="noreferrer"
+            >
+              Связаться с нами
+            </button>
+          </div>
+          <button class="header__arrow" href="#about-us" type="button"></button>
+        </div>
+      </header>
 
-    <header class="header">
-      <div class="header__block">
-        <div class="header__logo">
-          <img class="header__logo-icon" src="./images/logo.svg">
-          <h1 class="header__logo-title">
-            Центр Экспертизы <br>
-            <span class="header__logo-title_green">
-              в сфере природопользования
-            </span>
-          </h1>
-        </div>
-        <nav class="header__navigate">
-          <img src="./images/ellipse.svg">
-          <a class="header__link" href="#expertises">
-            Виды экспертиз
-          </a>
-          <img src="./images/ellipse.svg">
-          <a class="header__link" href="#clients">
-            Наши клиенты
-          </a>
-          <img src="./images/ellipse.svg">
-          <a class="header__link" href="#contacts">
-            Контакты
-          </a>
-        </nav>
-      </div>
-      <div class="header__container">
-        <div class="header__info">
-          <h2 class="header__title">
-            Проведение судебных <br> и внесудебных экспертиз
-          </h2>
-          <h3 class="header__subtitle">
-            В сфере природопользования
-          </h3>
-          <button
-            class="header__button"
-            href="https://"
-            type="button"
-            rel="noreferrer"
-          >
-            Связаться с нами
-          </button>
-        </div>
-        <button
-          class="header__arrow"
-          href="#about-us"
-          type="button"
-        >
-        </button>
-      </div>
-    </header>
+      <main>
+        <section class="about-us" name="about-us">
+          <div class="about-us__block">
+            <img src="./images/ellipse.svg" />
+            <h2 class="about-us__title">О нас</h2>
+            <img src="./images/ellipse.svg" />
+          </div>
+          <div class="about-us__content-block">
+            <div class="about-us__flexbox-container">
+              <div class="about-us__container">
+                <div class="about-us__subtitle-block">
+                  <img src="./images/about_the_center.svg" />
+                  <h3 class="about-us__subtitle">О центре</h3>
+                </div>
+                <p class="about-us__text">
+                  Центр экспертиз в сфере природопользования специализируется на
+                  проведении судебных и внесудебных экспертиз, связанных с
+                  использованием природных ресурсов
+                </p>
+              </div>
+              <div class="about-us__container">
+                <div class="about-us__subtitle-block">
+                  <img src="./images/cooperation.svg" />
+                  <h3 class="about-us__subtitle">Сотрудничество</h3>
+                </div>
+                <p class="about-us__text">
+                  Мы выполняем экспертизы для органов государственной власти по
+                  поручению арбитражных судов, судов общей юрисдикции,
+                  федеральной службы безопасности РФ, полиции, прокуратуры,
+                  следственных органов, государственных и муниципальных
+                  предприятий, госучреждений, коммерческих организаций и частных
+                  лиц
+                </p>
+              </div>
+              <div class="about-us__container">
+                <div class="about-us__subtitle-block">
+                  <img src="./images/our_activities.svg" />
+                  <h3 class="about-us__subtitle">Наша деятельность</h3>
+                </div>
+                <p class="about-us__text">
+                  Эксперты Центра проводят исследования в различных областях,
+                  таких как лесное хозяйство, экология, землепользование, охрана
+                  природы и др. Они также могут выступать в качестве
+                  консультантов и экспертов по вопросам природоохранного
+                  законодательства, предоставлять свои услуги в судебных
+                  процессах
+                </p>
+              </div>
+              <div class="about-us__container">
+                <div class="about-us__subtitle-block">
+                  <img src="./images/our_employees.svg" />
+                  <h3 class="about-us__subtitle">Наши сотрудники</h3>
+                </div>
+                <p class="about-us__text">
+                  Имеем обширную научную базу, штат сотрудников обладающих
+                  учеными степенями. Также являемся членом союза лиц,
+                  осуществляющих деятельность в сфере судебной экспертизы и
+                  судебных экспертных исследовании «Палата судебных экспертов
+                  имени Ю.Г. Корухова»
+                </p>
+              </div>
+            </div>
+            <img
+              class="about-us__certificat-image"
+              src="./images/certificate.png"
+            />
+          </div>
+        </section>
 
-    <main>
-      <section class="about-us" name="about-us">
-        <div class="about-us__block">
-          <img src="./images/ellipse.svg">
-          <h2 class="about-us__title">
-            О нас
-          </h2>
-          <img src="./images/ellipse.svg">
-        </div>
-        <div class="about-us__grid">
-          <div class="about-us__container">
-            <div class="about-us__subtitle-block">
-              <img src="./images/about_the_center.svg">
-              <h3 class="about-us__subtitle">
-                О центре
-              </h3>
-            </div>
-            <h class="about-us__text">
-              Центр экспертиз в сфере природопользования
-              специализируется на проведении судебных и
-              внесудебных экспертиз, связанных с
-              использованием природных ресурсов
-            </h>
+        <section class="expertises" name="expertises">
+          <div class="expertises__block">
+            <img src="./images/ellipse.svg" />
+            <h2 class="expertises__title">Виды проводимых экспертиз</h2>
+            <img src="./images/ellipse.svg" />
           </div>
-          <div class="about-us__container">
-            <div class="about-us__subtitle-block">
-              <img src="./images/cooperation.svg">
-              <h3 class="about-us__subtitle">
-                Сотрудничество
-              </h3>
+          <div class="expertises__grid">
+            <div class="expertises__container">
+              <div class="expertises__subtitle-block">
+                <img src="./images/forest_pathological.svg" />
+                <h3 class="expertises__subtitle">Лесопатологические</h3>
+              </div>
+              <ul class="expertises__text">
+                <li>
+                  Определение болезней (в т.ч. повреждений насекомыми) древесных
+                  и кустарниковых растений, причин их появления;
+                </li>
+                <li>
+                  Оценка состояния древесных растений с выявлением аварийных
+                  деревьев, установление причин падения, усыхания дерева.
+                </li>
+              </ul>
             </div>
-            <h class="about-us__text">
-              Мы выполняем экспертизы для органов государственной
-              власти по поручению арбитражных судов, судов общей
-              юрисдикции, федеральной службы безопасности РФ,
-              полиции, прокуратуры, следственных органов,
-              государственных и муниципальных предприятий,
-              госучреждений, коммерческих организаций и частных лиц
-            </h>
-          </div>
-          <div class="about-us__container">
-            <div class="about-us__subtitle-block">
-              <img src="./images/our_activities.svg">
-              <h3 class="about-us__subtitle">
-                Наша деятельность
-              </h3>
+            <div class="expertises__container">
+              <div class="expertises__subtitle-block">
+                <img src="./images/land_management.svg" />
+                <h3 class="expertises__subtitle">Землеустроительные</h3>
+              </div>
+              <ul class="expertises__text">
+                <li>
+                  Судебная (досудебная) землеустроительная,
+                  строительно-техническая экспертиза;
+                </li>
+                <li>
+                  Межевые планы по образованию, уточнению местоположения,
+                  объединению, разделу,выделу земельных участков;
+                </li>
+                <li>Геодезические работы по выносу границ участка в натуру;</li>
+                <li>Топографо-геодезические работы;</li>
+                <li>
+                  Схемы расположения земельных участков на кадастровом плане
+                  территории.
+                </li>
+              </ul>
             </div>
-            <h class="about-us__text">
-              Эксперты Центра проводят исследования в различных
-              областях, таких как лесное хозяйство, экология,
-              землепользование, охрана природы и др. Они также
-              могут выступать в качестве консультантов и экспертов
-              по вопросам природоохранного законодательства,
-              предоставлять свои услуги в судебных процессах
-            </h>
-          </div>
-          <div class="about-us__container">
-            <div class="about-us__subtitle-block">
-              <img src="./images/our_employees.svg">
-              <h3 class="about-us__subtitle">
-                Наши сотрудники
-              </h3>
+            <div class="expertises__container">
+              <div class="expertises__subtitle-block">
+                <img src="./images/soil_science.svg" />
+                <h3 class="expertises__subtitle">Почвоведческие</h3>
+              </div>
+              <ul class="expertises__text">
+                <li>
+                  Оценка качества посадочного материала с выездом эксперта;
+                </li>
+                <li>
+                  Корректный отбор образцов почвы, составление характеристики
+                  состояния почвы/грунта;
+                </li>
+                <li>
+                  Описание местности, площади загрязнения, глубины проникновения
+                  загрязнения.
+                </li>
+              </ul>
             </div>
-            <h class="about-us__text">
-              Имеем обширную научную базу, штат сотрудников обладающих
-              учеными степенями. Также являемся членом союза лиц,
-              осуществляющих деятельность в сфере судебной экспертизы
-              и судебных экспертных исследовании «Палата судебных
-              экспертов имени Ю.Г. Корухова»
-            </h>
+            <div class="expertises__container">
+              <div class="expertises__subtitle-block">
+                <img src="./images/forest_law_services.svg" />
+                <h3 class="expertises__subtitle">
+                  Юридические услуги в области <br />
+                  лесного права
+                </h3>
+              </div>
+              <ul class="expertises__text">
+                <li>
+                  Юридическое, экспертное сопровождение по вопросам
+                  недропользования и лесопользования;
+                </li>
+                <li>
+                  Консультирование по делам о возмещении ущерба, причиненного
+                  лесному фонду, участие в судебных процессах;
+                </li>
+                <li>
+                  Консультирование по вопросам ЕГАИС лес - учет древесины и
+                  сделок с ней;
+                </li>
+                <li>
+                  Сопровождение судебных споров по спорам в области
+                  лесопользования, недропользования;
+                </li>
+                <li>
+                  Проектные документации лесного участка, проекты освоения
+                  лесов, лесные декларации.
+                </li>
+              </ul>
+            </div>
+            <div class="expertises__container">
+              <div class="expertises__subtitle-block">
+                <img src="./images/forestry.svg" />
+                <h3 class="expertises__subtitle">Лесохозяйственные</h3>
+              </div>
+              <ul class="expertises__text">
+                <li>Экспертиза качества отводов лесосечного фонда;</li>
+                <li>Планирование лесопользования;</li>
+                <li>
+                  Экспертиза качества проведенных лесохозяйственных мероприятий;
+                </li>
+                <li>
+                  Экспертиза соответствия таксационных характеристик материалов
+                  лесного реестра фактическим параметрам лесных насаждений;
+                </li>
+                <li>
+                  Отвод, материально-денежная оценка лесосеки, лесное
+                  проектирование;
+                </li>
+              </ul>
+            </div>
+            <div class="expertises__container">
+              <div class="expertises__subtitle-block">
+                <img src="./images/ecological.svg" />
+                <h3 class="expertises__subtitle">Экологические</h3>
+              </div>
+              <ul class="expertises__text">
+                <li>Судебная (досудебная) экспертиза;</li>
+                <li>
+                  Определение соответствия нормативным, техническим и
+                  методическим требованиям процедуры отбора и анализа проб;
+                </li>
+                <li>Проверка нормативов ПДК вредных веществ;</li>
+                <li>
+                  Определение наличия нарушения установленных требований к
+                  результатам и процедуре измерения при определения наличия
+                  экологических нарушений проверяющими и контролирующими
+                  органами.
+                </li>
+              </ul>
+            </div>
+            <div class="expertises__container">
+              <div class="expertises__subtitle-block">
+                <img src="./images/according_to_the_quality.svg" />
+                <h3 class="expertises__subtitle">
+                  По оценке качества, свойств, <br />
+                  породы древесины
+                </h3>
+              </div>
+              <ul class="expertises__text">
+                <li>
+                  Экспертиза лесоматериалов, древесины и изделий из древесины;
+                </li>
+                <li>
+                  Оценка соответствия лесоматериалов по количеству и качеству
+                  условиям контрактов или требованиям различных нормативных
+                  документов; определение вида, качества и количества лесных
+                  товаров для таможенных органов;
+                </li>
+                <li>
+                  Определение древесной породы по древесине в различных
+                  лесоматериалах (круглые лесоматериалы, пилопродукция, шпон и
+                  т.д.) и изделиях из древесины;
+                </li>
+                <li>
+                  Экспертная оценка качества строительных материалов из
+                  древесины или на основе древесины (от бревен, в т.ч.
+                  оцилиндрованных, до паркетных досок);
+                </li>
+                <li>
+                  Определение основных свойств древесины (влажность,
+                  усушка-разбухание, плотность, прочность) в сырье и изделиях их
+                  древесины.
+                </li>
+              </ul>
+            </div>
           </div>
-        </div>
-        <img src="./images/certificate.png">
-      </section>
+        </section>
 
-      <section class="expertises" name="expertises">
-        <div class="expertises__block">
-          <img src="./images/ellipse.svg">
-          <h2 class="expertises__title">
-            Виды проводимых экспертиз
-          </h2>
-          <img src="./images/ellipse.svg">
-        </div>
-        <div class="expertises__grid">
-          <div class="expertises__container">
-            <div class="expertises__subtitle-block">
-              <img src="./images/forest_pathological.svg">
-              <h3 class="expertises__subtitle">
-                Лесопатологические
-              </h3>
-            </div>
-            <ul class="expertises__text">
-              <li>
-                Определение болезней (в т.ч. повреждений насекомыми)
-                древесных и кустарниковых растений, причин их появления;
-              </li>
-              <li>
-                Оценка состояния древесных растений с выявлением аварийных
-                деревьев, установление причин падения, усыхания дерева.
-              </li>
-            </ul>
+        <section class="clients" name="clients">
+          <div class="clients__block">
+            <img src="./images/ellipse.svg" />
+            <h2 class="clients__title">Наши клиенты</h2>
+            <img src="./images/ellipse.svg" />
           </div>
-          <div class="expertises__container">
-            <div class="expertises__subtitle-block">
-              <img src="./images/land_management.svg">
-              <h3 class="expertises__subtitle">
-                Землеустроительные
-              </h3>
-            </div>
-            <ul class="expertises__text">
-              <li>
-                Судебная (досудебная) землеустроительная,
-                строительно-техническая экспертиза;
-              </li>
-              <li>
-                Межевые планы по образованию, уточнению местоположения,
-                объединению, разделу,выделу земельных участков;
-              </li>
-              <li>
-                Геодезические работы по выносу границ участка в натуру;
-              </li>
-              <li>
-                Топографо-геодезические работы;
-              </li>
-              <li>
-                Схемы расположения земельных участков на кадастровом
-                плане территории.
-              </li>
-            </ul>
-          </div>
-          <div class="expertises__container">
-            <div class="expertises__subtitle-block">
-              <img src="./images/soil_science.svg">
-              <h3 class="expertises__subtitle">
-                Почвоведческие
-              </h3>
-            </div>
-            <ul class="expertises__text">
-              <li>
-                Оценка качества посадочного материала с выездом эксперта;
-              </li>
-              <li>
-                Корректный отбор образцов почвы, составление характеристики
-                состояния почвы/грунта;
-              </li>
-              <li>
-                Описание местности, площади загрязнения, глубины
-                проникновения загрязнения.
-              </li>
-            </ul>
-          </div>
-          <div class="expertises__container">
-            <div class="expertises__subtitle-block">
-              <img src="./images/forest_law_services.svg">
-              <h3 class="expertises__subtitle">
-                Юридические услуги в области <br> лесного права
-              </h3>
-            </div>
-            <ul class="expertises__text">
-              <li>
-                Юридическое, экспертное сопровождение по вопросам
-                недропользования и лесопользования;
-              </li>
-              <li>
-                Консультирование по делам о возмещении ущерба, причиненного
-                лесному фонду, участие в судебных процессах;
-              </li>
-              <li>
-                Консультирование по вопросам ЕГАИС лес - учет древесины
-                и сделок с ней;
-              </li>
-              <li>
-                Сопровождение судебных споров по спорам в области
-                лесопользования, недропользования;
-              </li>
-              <li>
-                Проектные документации лесного участка, проекты освоения
-                лесов, лесные декларации.
-              </li>
-            </ul>
-          </div>
-          <div class="expertises__container">
-            <div class="expertises__subtitle-block">
-              <img src="./images/forestry.svg">
-              <h3 class="expertises__subtitle">
-                Лесохозяйственные
-              </h3>
-            </div>
-            <ul class="expertises__text">
-              <li>
-                Экспертиза качества отводов лесосечного фонда;
-              </li>
-              <li>
-                Планирование лесопользования;
-              </li>
-              <li>
-                Экспертиза качества проведенных лесохозяйственных мероприятий;
-              </li>
-              <li>
-                Экспертиза соответствия таксационных характеристик материалов
-                лесного реестра фактическим параметрам лесных насаждений;
-              </li>
-              <li>
-                Отвод, материально-денежная оценка лесосеки, лесное проектирование;
-              </li>
-            </ul>
-          </div>
-          <div class="expertises__container">
-            <div class="expertises__subtitle-block">
-              <img src="./images/ecological.svg">
-              <h3 class="expertises__subtitle">
-                Экологические
-              </h3>
-            </div>
-            <ul class="expertises__text">
-              <li>
-                Судебная (досудебная)  экспертиза;
-              </li>
-              <li>
-                Определение соответствия  нормативным, техническим и методическим
-                требованиям  процедуры отбора и анализа проб;
-              </li>
-              <li>
-                Проверка нормативов ПДК вредных веществ;
-              </li>
-              <li>
-                Определение наличия нарушения установленных требований к результатам
-                и процедуре измерения при определения наличия  экологических
-                нарушений проверяющими и контролирующими органами.
-              </li>
-            </ul>
-          </div>
-          <div class="expertises__container">
-            <div class="expertises__subtitle-block">
-              <img src="./images/according_to_the_quality.svg">
-              <h3 class="expertises__subtitle">
-                По оценке качества, свойств, <br> породы древесины
-              </h3>
-            </div>
-            <ul class="expertises__text">
-              <li>
-                Экспертиза лесоматериалов, древесины и изделий из древесины;
-              </li>
-              <li>
-                Оценка соответствия лесоматериалов по количеству и качеству
-                условиям контрактов или требованиям различных нормативных
-                документов; определение вида, качества и количества лесных
-                товаров для таможенных органов;
-              </li>
-              <li>
-                Определение древесной породы по древесине в различных
-                лесоматериалах (круглые лесоматериалы, пилопродукция, шпон и т.д.)
-                и изделиях из древесины;
-              </li>
-              <li>
-                Экспертная оценка качества строительных материалов из древесины
-                или на основе древесины (от бревен, в т.ч. оцилиндрованных,
-                до паркетных досок);
-              </li>
-              <li>
-                Определение основных свойств древесины (влажность, усушка-разбухание,
-                плотность, прочность) в сырье и изделиях их древесины.
-              </li>
-            </ul>
-          </div>
-        </div>
-      </section>
-
-      <section class="clients" name="clients">
-        <div class="clients__block">
-          <img src="./images/ellipse.svg">
-          <h2 class="clients__title">
-            Наши клиенты
-          </h2>
-          <img src="./images/ellipse.svg">
-        </div>
-        <div class="clients__container">
-          <a
-            class="clients__link"
-            href="https://severnaya.ru/"
-            target="_blank"
-          >
-            <img
-              src="./images/pticefabrika.png"
-              alt="Птицефабрика Северная"
-            >
-          </a>
-          <a
-            class="clients__link"
-            href="https://sudrf.ru/"
-            target="_blank"
-          >
-            <img
-              src="./images/sud_obshey_urisdikcii.png"
-              alt="Суды общей юрисдикции"
-            >
-          </a>
-          <a
-            class="clients__link"
-            href="https://segezha-group.com"
-            target="_blank"
-          >
-            <img
-              src="./images/segezha_group.png"
-              alt="Сегеза груп"
-            >
-          </a>
-          <a
-            class="clients__link"
-            href="https://arbitr.ru/"
-            target="_blank"
-          >
-            <img
-              src="./images/arbitrajniy_sud.png"
-              alt="Арбитражные суды"
-            >
-          </a>
-          <a
-            class="clients__link"
-            href="https://epp.genproc.gov.ru/"
-            target="_blank"
-          >
-            <img
-              src="./images/prirodoohrannaya_prokuratura.png"
-              alt="Природоохранная прокуратура"
-            >
-          </a>
-          <a
-            class="clients__link"
-            href="https://www.gazprom.ru/"
-            target="_blank"
-          >
-            <img
-              src="./images/gazprom.png"
-              alt="Газпром"
-            >
-          </a>
-          <a
-            class="clients__link"
-            href="https://sledcom.ru"
-            target="_blank"
-          >
-            <img
-              src="./images/sledstvenniy_comitet.png"
-              alt="Следственный комитет"
-            >
-          </a>
-          <a
-            class="clients__link"
-            href="https://nature.lenobl.ru/"
-            target="_blank"
-          >
-            <img
-              src="./images/comitet_po_prirodnim_resursam.png"
-              alt="Комитет по природным ресурсам"
-            >
-          </a>
-          <a
-            class="clients__link"
-            href="https://baltlng.ru/"
-            target="_blank"
-          >
-            <img
-              src="./images/rushimalyans.png"
-              alt="РусХимАльянс"
-            >
-          </a>
-          <a
-            class="clients__link"
-            href="https://aokcbk.ru/"
-            target="_blank"
-          >
-            <img
-              src="./images/kondopojskiy_cbk.png"
-              alt="Кондопожский ЦБК"
-            >
-          </a>
-          <a
-            class="clients__link"
-            href="https://kirlp.ru/"
-            target="_blank"
-          >
-            <img
-              src="./images/kirishi_lesprom.png"
-              alt="Кириши Леспром"
-            >
-          </a>
-          <a
-            class="clients__link"
-            href="https://ecostudio.su/"
-            target="_blank"
-          >
-            <img
-              src="./images/ecostudio.png"
-              alt="Экостудио"
-            >
-          </a>
-        </div>
-      </section>
-
-      <section class="contacts" name="contacts">
-        <div class="contacts__block">
-          <img src="./images/ellipse.svg">
-          <h2 class="contacts__title">
-            Контакты
-          </h2>
-          <img src="./images/ellipse.svg">
-        </div>
-        <div class="contacts__container">
-          <div class="contacts__info">
+          <div class="clients__container">
             <a
-              class="contacts__phone"
-              href=”tel:+79219324436”
+              class="clients__link"
+              href="https://severnaya.ru/"
+              target="_blank"
             >
               <img
-                class="contacts__icon"
-                src="./images/phone.svg"
-              >
-              +7 921 932 4436
+                src="./images/pticefabrika.png"
+                alt="Птицефабрика Северная"
+              />
+            </a>
+            <a class="clients__link" href="https://sudrf.ru/" target="_blank">
+              <img
+                src="./images/sud_obshey_urisdikcii.png"
+                alt="Суды общей юрисдикции"
+              />
             </a>
             <a
-              class="contacts__phone"
-              href=”tel:+79112096563”
+              class="clients__link"
+              href="https://segezha-group.com"
+              target="_blank"
             >
-              <img
-                class="contacts__icon"
-                src="./images/phone.svg"
-              >
-              +7 911 209 6563
+              <img src="./images/segezha_group.png" alt="Сегеза групп" />
+            </a>
+            <a class="clients__link" href="https://arbitr.ru/" target="_blank">
+              <img src="./images/arbitrajniy_sud.png" alt="Арбитражные суды" />
             </a>
             <a
-              class="contacts__email"
-              href=”mailto:expert_lc@mail.ru”
+              class="clients__link"
+              href="https://epp.genproc.gov.ru/"
+              target="_blank"
             >
               <img
-                class="contacts__icon"
-                src="./images/email.svg"
-              >
-              expert_lc@mail.ru
+                src="./images/prirodoohrannaya_prokuratura.png"
+                alt="Природоохранная прокуратура"
+              />
             </a>
-            <a class="contacts__address">
+            <a
+              class="clients__link"
+              href="https://www.gazprom.ru/"
+              target="_blank"
+            >
+              <img src="./images/gazprom.png" alt="Газпром" />
+            </a>
+            <a class="clients__link" href="https://sledcom.ru" target="_blank">
               <img
-                class="contacts__icon"
-                src="./images/location.svg"
-              >
-              Санкт-Петербург, <br> Б. Сампсониевский пр., д. 106, лит А, оф. 404
+                src="./images/sledstvenniy_comitet.png"
+                alt="Следственный комитет"
+              />
+            </a>
+            <a
+              class="clients__link"
+              href="https://nature.lenobl.ru/"
+              target="_blank"
+            >
+              <img
+                src="./images/comitet_po_prirodnim_resursam.png"
+                alt="Комитет по природным ресурсам"
+              />
+            </a>
+            <a class="clients__link" href="https://baltlng.ru/" target="_blank">
+              <img src="./images/rushimalyans.png" alt="РусХимАльянс" />
+            </a>
+            <a class="clients__link" href="https://aokcbk.ru/" target="_blank">
+              <img src="./images/kondopojskiy_cbk.png" alt="Кондопожский ЦБК" />
+            </a>
+            <a class="clients__link" href="https://kirlp.ru/" target="_blank">
+              <img src="./images/kirishi_lesprom.png" alt="Кириши Леспром" />
+            </a>
+            <a
+              class="clients__link"
+              href="https://ecostudio.su/"
+              target="_blank"
+            >
+              <img src="./images/ecostudio.png" alt="Экостудио" />
             </a>
           </div>
-          <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1995.234188744807!2d30.32858759695033!3d59.99461020538322!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x469633f47eea70d9%3A0xef8a25c149231c2e!2z0JHQvtC70YzRiNC-0Lkg0KHQsNC80L_RgdC-0L3QuNC10LLRgdC60LjQuSDQv9GALiwgMTA2LCA0MDQsINCh0LDQvdC60YIt0J_QtdGC0LXRgNCx0YPRgNCzLCAxOTQxNTY!5e0!3m2!1sru!2sru!4v1690601559717!5m2!1sru!2sru"
-            width="100%"
-            height="500"
-            style="border:0; opacity:0.9; border-radius:10px;"
-            allowfullscreen=""
-            loading="lazy"
-            referrerpolicy="no-referrer-when-downgrade"
-          >
-          </iframe>
+        </section>
+
+        <section class="contacts" name="contacts">
+          <div class="contacts__block">
+            <img src="./images/ellipse.svg" />
+            <h2 class="contacts__title">Контакты</h2>
+            <img src="./images/ellipse.svg" />
+          </div>
+          <div class="contacts__container">
+            <div class="contacts__info">
+              <a class="contacts__phone" href="”tel:+79219324436”">
+                <img class="contacts__icon" src="./images/phone.svg" />
+                +7 921 932 4436
+              </a>
+              <a class="contacts__phone" href="”tel:+79112096563”">
+                <img class="contacts__icon" src="./images/phone.svg" />
+                +7 911 209 6563
+              </a>
+              <a class="contacts__email" href="”mailto:expert_lc@mail.ru”">
+                <img class="contacts__icon" src="./images/email.svg" />
+                expert_lc@mail.ru
+              </a>
+              <a class="contacts__address">
+                <img class="contacts__icon" src="./images/location.svg" />
+                Санкт-Петербург, <br />
+                Б. Сампсониевский пр., д. 106, лит А, оф. 404
+              </a>
+            </div>
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1995.234188744807!2d30.32858759695033!3d59.99461020538322!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x469633f47eea70d9%3A0xef8a25c149231c2e!2z0JHQvtC70YzRiNC-0Lkg0KHQsNC80L_RgdC-0L3QuNC10LLRgdC60LjQuSDQv9GALiwgMTA2LCA0MDQsINCh0LDQvdC60YIt0J_QtdGC0LXRgNCx0YPRgNCzLCAxOTQxNTY!5e0!3m2!1sru!2sru!4v1690601559717!5m2!1sru!2sru"
+              width="100%"
+              height="500"
+              style="border: 0; opacity: 0.9; border-radius: 10px"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+            >
+            </iframe>
+          </div>
+        </section>
+      </main>
+
+      <footer class="footer">
+        <div class="footer__container footer__container-large">
+          <p class="footer__abbreviation">ООО "МЛПЦ ЭИС"</p>
+          <p class="footer__copyright">
+            &#169; Межрегиональный лесопромышленный центр экологии инжиниринга и
+            строительства, 2023.
+          </p>
         </div>
-      </section>
-    </main>
-
-    <footer class="footer">
-      <div class="footer__container footer__container-large">
-        <p class="footer__abbreviation">
-          ООО "МЛПЦ ЭИС"
-        </p>
-        <p class="footer__copyright">
-          &#169; Межрегиональный лесопромышленный центр экологии инжиниринга и строительства, 2023.
-        </p>
-      </div>
-      <div class="footer__container footer__container-small">
-        <p class="footer__copyright">
-          &#169; ООО "МЛПЦ ЭИС" 2023
-        </p>
-      </div>
-    </footer>
-
-  </div>
-</body>
+        <div class="footer__container footer__container-small">
+          <p class="footer__copyright">&#169; ООО "МЛПЦ ЭИС" 2023</p>
+        </div>
+      </footer>
+    </div>
+  </body>
 </html>

@@ -1,9 +1,10 @@
 .expertises__container {
-  display: inline-flex;
+  display: flex;
   padding: 30px 30px;
   flex-direction: column;
   align-items: flex-start;
   gap: 25px;
   border-radius: 20px;
-  background: rgba(164, 199, 122, 0.60);
+  background: rgba(164, 199, 122, 0.6);
+  max-width: 560px;
 }

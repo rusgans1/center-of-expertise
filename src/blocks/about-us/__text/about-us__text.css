@@ -1,7 +1,4 @@
 .about-us__text {
-  display: flex;
-  width: 500px;
-  align-items: flex-start;
   font-size: 20px;
   font-style: normal;
   font-weight: 400;

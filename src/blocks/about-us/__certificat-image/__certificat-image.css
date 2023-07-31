@@ -1,0 +1,6 @@
+.about-us__certificat-image {
+  object-fit: contain;
+  max-width: 560px;
+  width: 100%;
+  align-self: center;
+}
