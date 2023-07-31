@@ -1,23 +1,26 @@
 .header {
   background-image: url(../../images/header_image.png);
+  background-repeat: no-repeat;
   background-position: center;
-  height: 940px;
-  flex-direction: column;
+  background-size: cover;
+  box-sizing: border-box;
+  width: 100%;
+  height: 100vh;
   padding: 70px 100px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
 }
 
 @media screen and (max-width: 1440px) {
   .header {
-    height: 780px;
     padding: 60px 60px;
   }
 }
 
 @media screen and (max-width: 600px) {
   .header {
-    height: 740px;
     padding: 20px 13px;
-    display: flex;
     align-items: center;
   }
 }

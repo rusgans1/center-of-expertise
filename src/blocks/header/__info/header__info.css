@@ -1,0 +1,11 @@
+.header__info {
+  margin-bottom: 130px;
+  max-width: 643px;
+}
+
+@media screen and (max-width: 600px) {
+  .header__info {
+    margin-bottom: 20px;
+  }
+}
+
