@@ -4,3 +4,15 @@
   font-weight: 700;
   margin: 0 12px;
 }
+
+@media screen and (max-width: 1440px) {
+  .expertises__title {
+    font-size: 30px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .expertises__title {
+    font-size: 20px;
+  }
+}

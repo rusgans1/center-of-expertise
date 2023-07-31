@@ -5,6 +5,7 @@
 
 @media screen and (max-width: 1280px) {
   .contacts__container {
-  
+    flex-direction: column;
+    align-items: center;
   }
 }

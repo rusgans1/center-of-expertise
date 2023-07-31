@@ -1,6 +1,20 @@
 .contacts {
   background-image: url(../../images/footer_image.png);
+  background-repeat: no-repeat;
   background-position: center;
-  min-height: 769px;
-  padding: 0 100px;
+  box-sizing: border-box;
+  height: 100%;
+  padding: 0 100px 100px;
+}
+
+@media screen and (max-width: 1440px) {
+  .contacts {
+    padding: 0 60px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .contacts {
+    padding: 0 13px;
+  }
 }

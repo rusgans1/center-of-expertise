@@ -4,4 +4,14 @@
   max-width: calc(100% - 100px * 2);
 }
 
+@media screen and (max-width: 1440px) {
+  .clients {
+    max-width: calc(100% - 60px * 2);
+  }
+}
 
+@media screen and (max-width: 600px) {
+  .clients {
+    max-width: calc(100% - 13px * 2);
+  }
+}
