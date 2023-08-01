@@ -11,6 +11,7 @@
  html {
   line-height: 1.15; /* 1 */
   -webkit-text-size-adjust: 100%; /* 2 */
+  scroll-behavior: smooth;
 }
 
 /* Sections
@@ -23,6 +24,7 @@
 body {
   margin: 0;
   background: #F1F4F5;
+  scroll-behavior: smooth;
 }
 
 /**
@@ -348,15 +350,3 @@ template {
 [hidden] {
   display: none;
 }
-
-ul {
-  padding: 0;
-}
-
-li {
-  list-style-type: none;
- }
-
-li:before {
-  content: url(../images/check_mark.svg);
- }
