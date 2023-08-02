@@ -2,9 +2,43 @@
   display: flex;
   padding: 30px 30px;
   flex-direction: column;
-  align-items: flex-start;
   gap: 25px;
   border-radius: 20px;
   background: rgba(164, 199, 122, 0.6);
+  box-sizing: border-box;
   max-width: 560px;
+  break-inside: avoid-column;
+  margin-top: 20px;
+}
+
+.expertises__container:first-child {
+  margin-top: 0;
+}
+
+@media screen and (max-width: 1440px) {
+  .expertises__container {
+    padding: 20px 20px;
+    gap: 20px;
+  }
+}
+
+@media screen and (max-width: 1280px) {
+  .expertises__container {
+    max-width: 570px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .expertises__container {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 600px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .expertises__container {
+    max-width: 480px;
+    padding: 15px 15px;
+  }
 }

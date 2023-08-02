@@ -4,3 +4,22 @@
   font-weight: 500;
   margin: 0 0 0 16px;
 }
+
+@media screen and (max-width: 1680px) {
+  .about-us__subtitle {
+    font-size: 21px;
+  }
+}
+
+@media screen and (max-width: 1440px) {
+  .about-us__subtitle {
+    font-size: 20px;
+    margin-left: 10px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .about-us__subtitle {
+    font-size: 16px;
+  }
+}

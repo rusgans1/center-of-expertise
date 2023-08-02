@@ -13,3 +13,17 @@
 .contacts__email:hover {
   opacity: 0.6;
 }
+
+@media screen and (max-width: 1280px) {
+  .contacts__email {
+    font-size: 18px;
+  }
+}
+
+@media screen and (max-width: 680px) {
+  .contacts__email {
+    justify-content: center;
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+}

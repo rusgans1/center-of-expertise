@@ -7,12 +7,13 @@
 
 @media screen and (max-width: 1440px) {
   .expertises__title {
-    font-size: 30px;
+    font-size: 29px;
   }
 }
 
 @media screen and (max-width: 600px) {
   .expertises__title {
     font-size: 20px;
+    text-align: center
   }
 }

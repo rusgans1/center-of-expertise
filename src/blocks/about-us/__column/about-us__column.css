@@ -1,0 +1,10 @@
+.about-us__column {
+  column-count: 2;
+  gap: 20px;
+}
+
+@media screen and (max-width: 900px) {
+  .about-us__column {
+    column-count: 1;
+  }
+}

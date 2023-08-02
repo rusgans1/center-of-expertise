@@ -3,3 +3,19 @@
   flex-direction: column;
   margin: 30px 100px 0 0;
 }
+
+@media screen and (max-width: 1280px) {
+  .contacts__info {
+    margin: 0 auto 30px;
+    display: block;
+    column-count: 2;
+  }
+}
+
+@media screen and (max-width: 680px) {
+  .contacts__info {
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+  }
+}

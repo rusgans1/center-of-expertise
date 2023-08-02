@@ -15,8 +15,15 @@
   }
 }
 
+@media screen and (max-width: 700px) {
+  .header__subtitle {
+    font-size: 20px;
+  }
+}
+
 @media screen and (max-width: 600px) {
   .header__subtitle {
     font-size: 16px;
+    text-align: center;
   }
 }

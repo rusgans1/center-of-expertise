@@ -1,17 +1,18 @@
 .clients {
-  margin: auto;
-  padding-bottom: 50px;
+  margin: 0 auto 50px;
   max-width: calc(100% - 100px * 2);
 }
 
 @media screen and (max-width: 1440px) {
   .clients {
+    margin-bottom: 40px;
     max-width: calc(100% - 60px * 2);
   }
 }
 
 @media screen and (max-width: 600px) {
   .clients {
+    margin-bottom: 30px;
     max-width: calc(100% - 13px * 2);
   }
 }

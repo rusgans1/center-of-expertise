@@ -1,6 +1,27 @@
 .about-us__certificat-image {
   object-fit: contain;
   max-width: 560px;
-  width: 100%;
+  width: 32.56%;
   align-self: center;
+  margin-left: 20px;
+}
+
+@media screen and (max-width: 1280px) {
+  .about-us__certificat-image {
+    margin-left: 0;
+    margin-top: 20px;
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .about-us__certificat-image {
+    max-width: 600px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .about-us__certificat-image {
+    max-width: 480px;
+  }
 }

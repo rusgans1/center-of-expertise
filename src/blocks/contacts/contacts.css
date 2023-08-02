@@ -4,17 +4,24 @@
   background-position: center;
   box-sizing: border-box;
   height: 100%;
-  padding: 0 100px 100px;
+  padding: 0 100px 80px;
 }
 
 @media screen and (max-width: 1440px) {
   .contacts {
-    padding: 0 60px;
+    padding-left: 60px;
+    padding-right: 60px;
+  }
+}
+
+@media screen and (max-width: 1280px) {
+  .contacts {
+    padding-bottom: 40px;
   }
 }
 
 @media screen and (max-width: 600px) {
   .contacts {
-    padding: 0 13px;
+    padding: 0 13px 30px;
   }
 }
