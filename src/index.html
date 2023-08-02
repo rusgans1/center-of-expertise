@@ -51,14 +51,15 @@
             <h3 class="header__subtitle">
               В сфере природопользования
             </h3>
-            <button
-              class="header__button"
-              href="https://"
-              type="button"
-              rel="noreferrer"
-            >
-              Связаться с нами
-            </button>
+            <a href="#openPopup">
+              <button
+                class="header__button"
+                type="button"
+                rel="noreferrer"
+              >
+                Связаться с нами
+              </button>
+            </a>
           </div>
           <a class="header__arrow" href="#about-us"></a>
         </div>
@@ -587,6 +588,43 @@
           <p class="footer__copyright">&#169; ООО "МЛПЦ ЭИС" 2023</p>
         </div>
       </footer>
+
+      <section class="popup" id="openPopup">
+        <div class="popup__container">
+          <div class="popup__content">
+            <div class="popup__block">
+              <h3 class="popup__title">Наши контакты</h3>
+              <a class="popup__close" href="#close" title="Закрыть">×</a>
+            </div>
+            <div class="popup__info">
+              <a class="popup__phone" href="tel:+79219324436">
+                <img
+                  class="popup__icon"
+                  src="./images/phone.svg"
+                  alt="Телефон"
+                />
+                +7 921 932 4436
+              </a>
+              <a class="popup__phone" href="tel:+79112096563">
+                <img
+                  class="popup__icon"
+                  src="./images/phone.svg"
+                  alt="Телефон"
+                />
+                +7 911 209 6563
+              </a>
+              <a class="popup__email" href="mailto:expert_lc@mail.ru">
+                <img
+                  class="popup__icon"
+                  src="./images/email.svg"
+                  alt="Почта"
+                />
+                expert_lc@mail.ru
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
     </div>
   </body>
 </html>

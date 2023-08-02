@@ -1,0 +1,15 @@
+.popup__phone {
+  display: flex;
+  align-items: center;
+  color: #F1F4F5;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  margin-bottom: 20px;
+  text-decoration: none;
+  transition: opacity 0.5s ease-in-out;
+}
+
+.popup__phone:hover {
+  opacity: 0.6;
+}

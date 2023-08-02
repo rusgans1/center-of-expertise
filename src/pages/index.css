@@ -59,3 +59,14 @@
 @import url(../blocks/footer/__container/footer__container.css);
 @import url(../blocks/footer/__abbreviation/footer__abbreviation.css);
 @import url(../blocks/footer/__copyright/footer__copyright.css);
+
+@import url(../blocks/popup/popup.css);
+@import url(../blocks/popup/__container/popup__container.css);
+@import url(../blocks/popup/__content/popup__content.css);
+@import url(../blocks/popup/__block/popup__block.css);
+@import url(../blocks/popup/__title/popup__title.css);
+@import url(../blocks/popup/__close/popup__close.css);
+@import url(../blocks/popup/__info/popup__info.css);
+@import url(../blocks/popup/__phone/popup__phone.css);
+@import url(../blocks/popup/__email/popup__email.css);
+@import url(../blocks/popup/__icon/popup__icon.css);

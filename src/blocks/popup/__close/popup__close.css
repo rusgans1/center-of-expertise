@@ -1,0 +1,19 @@
+.popup__close {
+  float: right;
+  font-family: serif;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 1;
+  color: #fff;
+  text-shadow: 0 1px 0 #fff;
+  opacity: 0.5;
+  text-decoration: none;
+  margin-right: 5px;
+}
+
+.popup__close:focus, .popup__close:hover {
+  color: #0000007e;
+  text-decoration: none;
+  cursor: pointer;
+  opacity: 0.75;
+}
