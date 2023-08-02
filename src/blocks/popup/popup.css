@@ -8,7 +8,7 @@
   opacity: 0;
   transition: opacity 200ms ease-in;
   pointer-events: none;
-  margin: 0;
+  margin: 2000px 0 0;
   padding: 0;
 }
 
@@ -16,4 +16,5 @@
   opacity: 1;
   pointer-events: auto;
   overflow-y: auto;
+  margin: 0;
 }

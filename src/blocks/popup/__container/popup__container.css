@@ -10,3 +10,9 @@
     margin: 200px auto 0;
   }
 }
+
+@media screen and (max-height: 600px) {
+  .popup__container {
+    margin-top: 80px;
+  }
+}

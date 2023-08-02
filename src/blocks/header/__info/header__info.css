@@ -9,3 +9,9 @@
   }
 }
 
+@media screen and (max-height: 600px) {
+  .header__info {
+    margin-bottom: 0px;
+    margin-top: 28px;
+  }
+}
