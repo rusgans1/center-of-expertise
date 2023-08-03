@@ -11,7 +11,7 @@
 
 @media screen and (max-height: 600px) {
   .header__info {
-    margin-bottom: 15px;
+    margin-bottom: 0;
     margin-top: 20px;
   }
 }
