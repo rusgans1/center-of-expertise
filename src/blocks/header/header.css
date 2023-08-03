@@ -10,6 +10,7 @@
   display: flex;
   justify-content: space-between;
   flex-direction: column;
+  min-height: 320px;
 }
 
 @media screen and (max-width: 1440px) {
@@ -22,5 +23,11 @@
   .header {
     padding: 20px 13px;
     align-items: center;
+  }
+}
+
+@media screen and (max-height: 600px) {
+  .header {
+    padding-top: 30px;
   }
 }

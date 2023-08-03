@@ -3,12 +3,13 @@
   font-style: normal;
   font-weight: 600;
   background: #94BF5F;
-  padding: 15px 45px;
+  padding: 15px 47px;
   border-radius: 12px;
   border: none;
   cursor: pointer;
   transition: opacity 0.5s ease-in-out;
-  width: 269px;
+  text-decoration: none;
+  color: #000000;
 }
 
 .header__button:hover {
@@ -23,7 +24,9 @@
 
 @media screen and (max-width: 600px) {
   .header__button {
-    width: 295px;
+    text-align: center;
     font-size: 16px;
+    padding-left: 76px;
+    padding-right: 76px;
   }
 }

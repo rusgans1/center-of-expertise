@@ -5,13 +5,13 @@
 
 @media screen and (max-width: 600px) {
   .header__info {
-    margin-bottom: 20px;
+    margin-bottom: 35px;
   }
 }
 
 @media screen and (max-height: 600px) {
   .header__info {
-    margin-bottom: 0px;
-    margin-top: 28px;
+    margin-bottom: 15px;
+    margin-top: 20px;
   }
 }
