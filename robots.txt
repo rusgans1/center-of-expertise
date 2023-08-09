@@ -1,0 +1,3 @@
+User-agent: *
+Allow: https://natureexpert.ru/
+Sitemap: https://natureexpert.ru/sitemap.xml
